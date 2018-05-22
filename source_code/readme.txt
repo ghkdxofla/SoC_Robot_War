@@ -32,6 +32,8 @@
 # 영상 처리 속도가 너무 느린데...
 => openmp로 loop 를 cpu의 병렬처리함
 => SetPixel의 속도가 느려서 영상 출력이 적음
+=> SetBitmapBits로 속도 실시간으로 바꿈!!!
+=> http://neatfish.cafe24.com/wp/archives/45
 
 # SetBitmapBits 사용하기
 => HDC->CDC : 
@@ -43,7 +45,7 @@
 
 # 할 것들
 - 특징점 세이브 로드
-- 프레임 속도 올려보기
+- 프레임 속도 올려보기(해결!)
 
 # 물체의 구조체
 - x, y, [128]number, [동적할당]gradient
