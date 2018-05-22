@@ -30,4 +30,20 @@
 => 아직...ㅎ
 
 # 영상 처리 속도가 너무 느린데...
-=> 병렬처리 예정
+=> openmp로 loop 를 cpu의 병렬처리함
+=> SetPixel의 속도가 느려서 영상 출력이 적음
+
+# SetBitmapBits 사용하기
+=> HDC->CDC : 
+	HDC hdc = ::GetDC(hWnd); 
+	CDC *pDC = CDC::FromHandle(hdc); 
+
+
+출처: http://devkyy.tistory.com/219 [김용유 닷컴]
+
+# 할 것들
+- 특징점 세이브 로드
+- 프레임 속도 올려보기
+
+# 물체의 구조체
+- x, y, [128]number, [동적할당]gradient
