@@ -207,6 +207,7 @@
     <None Include="res\CamProcess.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="D:\다운로드\test.bmp" />
     <Image Include="res\CamProcess.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

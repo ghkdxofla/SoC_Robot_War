@@ -56,5 +56,8 @@
     <Image Include="res\CamProcess.ico">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="D:\다운로드\test.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>
