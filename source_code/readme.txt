@@ -46,7 +46,12 @@
 # 할 것들
 - 특징점 세이브 로드
 - 메모리 누수 잡기(해결)
-- 연결리스트 그대로 저장하기
+- 연결리스트 그대로 저장하기(궁여지책으로 해결)
+- 검출 파일 수작업
+	Potato.dat Potato_size.dat
+	Nobone.dat Nobone_size.dat
+	Conf.dat Conf_size.dat
+
 
 # 물체의 구조체
 - x, y, [128]number, gradient
